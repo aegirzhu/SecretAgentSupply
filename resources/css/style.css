@@ -49,19 +49,20 @@ body {
   width: 20rem;
   background-color: black;
   font-weight: bold;
-  padding: 2rem 3rem;
+  height: auto;
 }
 
 .banner .container div  p {
   font-size: 1rem;
-  padding: 0;
-  margin: 0;
+  margin-left: 3rem;
+  padding-top: 2rem;
 }
 
 .banner .container div  h1 {
   font-size: 2rem;
-  padding: 0;
-  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  margin-left: 3rem;
+  padding-bottom: 2rem;
 }
 
 /* navigation bar */
@@ -191,15 +192,18 @@ footer .container {
   /* Making the headline appear at the bottom of the banner and take up the width of the screen. */
   .banner .container div {
     width: 100%;
-    padding: 1rem 2rem;
   }
   /* Changing the banner's font size to match the design. */
   .banner .container div  p {
     font-size: 0.77rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
   }
 
   .banner .container div  h1 {
     font-size: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
   }
   /* In the product section, making only one product visible. It should take up 90% of the width of the screen. */
   .watch {
